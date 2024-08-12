@@ -32,7 +32,11 @@ sudo apt install nasm
 ```bash
 sudo apt install qemu-system-x86
 ```
+- bless - Just in case you're interested in seeing what's inside our bootloader, you can use hexdump or bless.
 
+```
+sudo apt install bless
+```
 
 ---
 
