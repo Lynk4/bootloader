@@ -5,7 +5,7 @@
 ![cover](https://github.com/user-attachments/assets/2c3b11f0-dbf5-4134-9506-14ab066e8297)
 
 ---
-### **What is a boot loader?......**
+## **What is a boot loader?......**
 
 
 
@@ -18,7 +18,20 @@
 
 ---
 
+## Setting up the scene
 
+- [nasm](https://en.wikipedia.org/wiki/Netwide_Assembler) - The Netwide Assembler (NASM) is an assembler and disassembler for the Intel x86 architecture. It can be used to write 16-bit, 32-bit (IA-32) and 64-bit (x86-64) programs.
+
+
+```bash
+sudo apt install nasm
+```
+
+- [QEMU](https://www.qemu.org/docs/master/system/target-i386.html) - An emulator to test our bootloader would eliminate the risk of inadvertently damaging our hardware due to poorly written OS code.
+
+```bash
+sudo apt install qemu-system-x86
+```
 
 
 ---
