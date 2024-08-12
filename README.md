@@ -40,6 +40,9 @@ sudo apt install bless
 
 ---
 
-![ts](https://github.com/user-attachments/assets/cd611059-eae7-4d28-b75d-1bc3eeb9daf3)
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/cd611059-eae7-4d28-b75d-1bc3eeb9daf3">
+</div>
 
 ---
+
