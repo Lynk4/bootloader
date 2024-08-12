@@ -12,3 +12,14 @@
 ### **A boot loader loads an operating system from a storage media, creates a basic environment in which the OS may function, and executes the operating system's startup procedure.**
 
 ---
+<img width="1001" alt="Screenshot 2024-08-12 at 6 20 37 PM" src="https://github.com/user-attachments/assets/6a73716f-cd49-46b4-9d2f-a36a9ace6150">
+
+### *The boot sector needs to be installed in a well-known, consistent location. It takes up 512 bytes and is located in the disk's first sector (Cylinder 0, Head 0, Sector 0). In byte positions 511 and 512 of the boot sector, respectively, two magic numbers, 0x55 and 0xAA, are used by the BIOS to recognize a boot device as a legitimate bootable one. The BIOS loads the boot sector into memory at a specific address, 0x0000:0x7C00, when it discovers one.*
+
+---
+
+
+
+
+---
+
