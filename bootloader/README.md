@@ -7,7 +7,7 @@
 1. Compile our assembly file
 ```
 lynk@Linux ~/bootloader> make all
-nasm - bin./src/boot.asm -o ./bin/boot.bin
+nasm -f bin ./src/boot.asm -o ./bin/boot.bin
 lynk@Linux~/bootloader>
 ```
 ---
@@ -22,7 +22,7 @@ lynk@Linux~/bootloader>
 
 
 ```bash
-lynk@Linux ~/bootloader> qemu-system-x86_64 -hda./bin/boot.bin
+lynk@Linux ~/bootloader> qemu-system-x86_64 -hda ./bin/boot.bin
 ```
 
 ---
