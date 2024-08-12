@@ -22,7 +22,7 @@ lynk@Linux~/bootloader>
 
 
 ```bash
-qemu-system-x86_64 -hda./bin/boot.bin
+lynk@Linux ~/bootloader> qemu-system-x86_64 -hda./bin/boot.bin
 ```
 
 ---
